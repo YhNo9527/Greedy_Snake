@@ -1,0 +1,64 @@
+{
+    "include": [
+        // ./src/**/*表示src下所有文件夹下的所有文件, ./src/start/* 表示start文件夹下的所有文件
+        // ** 表示所有文件夹 * 表示所有文件
+        "./src/GreedySnake/*"
+    ],
+    "exclude": [
+        "./node_modules"
+    ],
+    "compilerOptions": {
+        "target": "ES6",    
+        "module": "ES6",
+        "strict": true,
+        "outDir": "./dist_ts",
+        "noEmitOnError": true
+    }
+}
+    /* "compilerOptions": {
+        // 指定编译后的js版本
+        "target": "es6",
+
+        // 指定使用哪种模块
+        "module": "system",
+
+        // 指定使用哪些库
+        "lib": ["es6"],
+
+        // 指定编译后文件位置
+        "outDir": "./dist",
+
+        // 将多个Ts文件编译后的Js文件合并到一个文件
+        "outFile": "./dist/app.js",
+
+        // 是否对JS文件进行编译，默认false
+        "allowJs": false,
+
+        // 检查JS文件代码是否符合语法规范，默认false
+        "checkJs": false,
+
+        // 是否去掉注释,默认false
+        "removeComments": false,
+
+        // 是否生成编译后的文件,默认false
+        "noEmit": false,
+
+        // 当有错误时是否生成编译后的文件，默认false
+        "noEmitOnError": false,
+
+        // 所有严格检查总开关，默认false
+        "strict": false,
+
+        // 设置编译后文件是否使用严格模式,默认false
+        "alwaysStrict": false,
+
+        // 是否允许使用隐式any,默认false
+        "noImplicitAny": false,
+
+        // 是否允许不明确的类型this，默认false
+        "noImplicitThis": false,
+
+        // 是否严格检查空值
+        "strictNullChecks": false
+    }
+*/
